@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>index</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script type="text/javascript" src="dojox/mobile/deviceTheme.js"></script>
+</head>
+<body><div data-dojo-type="dojox.mobile.ScrollableView" id="view0" data-dojo-props="selected:true"></div>
+
+</body>
+</html>

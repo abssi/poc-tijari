@@ -1,0 +1,28 @@
+function wlCommonInit(){
+	require([ "layers/core-web-layer", "layers/mobile-ui-layer" ], dojoInit);
+	/*
+	 * Use of WL.Client.connect() API before any connectivity to a Worklight Server is required. 
+	 * This API should be called only once, before any other WL.Client methods that communicate with the Worklight Server.
+	 * Don't forget to specify and implement onSuccess and onFailure callback functions for WL.Client.connect(), e.g:
+	 *    
+	 *    WL.Client.connect({
+	 *    		onSuccess: onConnectSuccess,
+	 *    		onFailure: onConnectFailure
+	 *    });
+	 *     
+	 */
+	
+	// Common initialization code goes here
+	
+	window.$("#header").load ("../pages/menus/top-menu.html");
+	window.$$("#drawer-menu").load ("../pages/menus/drawer-menu.html");
+	window.$$("#footer").load ("../pages/menus/bottom-menu.html");
+}
+
+function dojoInit () {
+	require ([ "dojo/ready", "dojo/parser", "dojox/mobile", "dojo/dom", "dojo/domReady!" ], function (ready) {
+		ready (function () {
+			alert ("Hello");
+		});
+	});
+} 

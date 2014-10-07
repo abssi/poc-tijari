@@ -1,0 +1,9 @@
+dojo-bootstrap-js=dojo/dojo.js
+dojo-css=
+dojo-deploy-location-option=ProjectSetupProperties.deploy.from.another.project
+dojo-devicetheme-js=dojox/mobile/deviceTheme.js
+dojo-dijit-css=
+dojo-root=/attijari-poc-mobile-project/www
+dojo-source-metadata-root=/dojoLib/toolkit/dojo
+dojo-theme-css=
+eclipse.preferences.version=1
